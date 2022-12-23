@@ -6,6 +6,12 @@ superpower. Join forces with us and build a dashboard of the future!
 
 ![aspaara superhero](aspaara_superhero.png)
 
+## How to run
+1. After cloning into the repository, run ```python -m venv venv```.
+2. Activate virtual envirnoment ```source venv/bin/activate```.
+3. Install packages ```pip install -r requirements.txt```.
+4. Now simlpy run using uvicorn with ```uvicorn main:app --reload``` and it should work!
+
 ## Goal
 
 Create a simple backend application that provides an API for a dashboard which
